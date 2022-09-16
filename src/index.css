@@ -58,6 +58,7 @@ body {
 .application-content section,
 .application-content summary {
   display: block;
+ 
 }
 .application-content audio,
 .application-content canvas,
@@ -348,6 +349,7 @@ body {
   margin-left: auto;
   padding-left: 8px;
   padding-right: 8px;
+  
 }
 .application-content .row {
   margin-left: -0.5px;
@@ -1145,22 +1147,23 @@ body {
 }
 .application-content .menu {
   display: block;
-  background: #b24143;
+  background: #4149b2;
   text-transform: uppercase;
   line-height: 3rem;
+  
 }
 .application-content .menu nav {
-  display: inline-block;
-  float: left;
+  display: flex;
+  
 }
 .application-content .menu li:first-child > a:focus,
 .application-content .menu li:first-child > a:hover {
-  background-color: #ba5455;
+  background-color: #4149b2;
 }
 .application-content .menu .CMSListMenuHighlightedLI > a,
 .application-content .menu a:focus,
 .application-content .menu a:hover {
-  background-color: #ba5455;
+  background-color: #b09797;
 }
 .application-content .menu a,
 .application-content .menu a:hover,
@@ -1192,7 +1195,7 @@ body {
 }
 .application-content #mobile-menu-btn:focus,
 .application-content #mobile-menu-btn:hover {
-  background-color: #ba5455;
+  background-color: #4149b2;
   outline: none;
 }
 .application-content #mobile-menu-btn a:focus,
@@ -1213,13 +1216,13 @@ body {
 }
 .application-content .mobile-menu li:first-child > a:focus,
 .application-content .mobile-menu li:first-child > a:hover {
-  background-color: #ba5455;
+  background-color: #4149b2;
   outline: none;
 }
 .application-content .mobile-menu .CMSListMenuHighlightedLI > a,
 .application-content .mobile-menu a:focus,
 .application-content .mobile-menu a:hover {
-  background-color: #ba5455;
+  background-color: #4149b2;
   outline: none;
 }
 .application-content .mobile-menu a,
@@ -1283,13 +1286,15 @@ body {
   text-transform: none;
 }
 .application-content .additional-menu-buttons .dropdown-opened {
-  background-color: #ba5455;
+  background-color: #4149b2;
 }
 .application-content .menu .additional-menu-buttons {
-  float: right;
+  position: absolute;
+right:0;
+top: 20px;
 }
 .application-content .menu .menu-hover:hover {
-  background-color: #ba5455;
+  background-color: #4149b2;
 }
 .application-content .menu .dropdown-header {
   padding: 0 1rem;
@@ -1375,7 +1380,7 @@ body {
   bottom: 0;
 }
 .application-content .product-tile .product-tile-status {
-  background-color: #b24143;
+  background-color: #4149b2;
   margin-top: 25%;
   color: #fff;
   padding: 0.5rem 1.25rem;
@@ -1520,7 +1525,7 @@ body {
 }
 .application-content .product-detail .product-status.bestseller,
 .application-content .product-detail .product-status.onsale {
-  background-color: #b24143;
+  background-color: #4149b2;
 }
 .application-content .product-detail-properties dt,
 .application-content .product-detail-properties dd {
@@ -1797,7 +1802,7 @@ body {
   background: #aaaaaa;
 }
 .application-content .checkout-top-header {
-  background: #b24143;
+  background: #4149b2;
   padding: 0.8125rem 0px;
   color: #fff;
 }
@@ -1994,7 +1999,7 @@ body {
   margin-top: 1rem;
   margin-bottom: 1.25rem;
   padding: 1rem;
-  background-color: #b24143;
+  background-color: #4149b2;
   color: #fff;
   font-size: 1.375rem;
   font-family: 'pt serif';
@@ -5320,7 +5325,7 @@ body {
   width: 100%;
   line-height: 80%;
   color: #ffffff;
-  background-color: #b24143;
+  background-color: #4149b2;
 }
 .application-content .order-item {
   max-height: 7rem;
@@ -5401,10 +5406,12 @@ body {
 }
 .application-content .header-row {
   padding-top: 2.5rem;
+  
 }
 .application-content .logo {
   text-align: left;
   margin: 0;
+
 }
 .application-content .logo-link,
 .application-content .logo-link:hover,
@@ -5756,7 +5763,7 @@ body {
   padding: 0px;
 }
 .application-content .cafe-tile {
-  background: #b24143;
+  background: #4149b2;
   color: #fff;
   height: 200px;
   overflow: hidden;
@@ -5778,7 +5785,7 @@ body {
   padding: 0 1rem 1rem 1rem;
 }
 .application-content .cafe-image-tile {
-  background: #b24143;
+  background: #4149b2;
   color: #fff;
 }
 .application-content .cafe-image-tile-address {
@@ -5970,13 +5977,13 @@ body {
   display: block;
   font-weight: bold;
   text-align: left;
-  background-color: #d12127;
+  background-color: #4149b2;
   padding: 10px 12px;
   margin-top: 0.3rem;
   margin-bottom: 0.6rem;
 }
 .application-content .signin-register .input-validation-error {
-  border-color: #d12127 !important;
+  border-color: #4149b2 !important;
 }
 .application-content .signin-register .field-validation-error {
   color: #d12127;

@@ -59,7 +59,7 @@ const Cafes: React.FC = () => {
         <div
           className="cafe-image-tile js-scroll-to-map"
           data-address={model.dataAddress}
-        >
+        > 
           <div
             className="cafe-image-tile-image-wrapper"
             style={{

@@ -32,7 +32,7 @@
   "BrewerStoreListing.noNameValue": "No name filled",
   "BrewerStoreListing.noTeaserValue": "(Product has no teaser image)",
   "BrewerStoreListing.noDescriptionValue": "No description filled",
-  "Cafes.ourCafesTitle": "Our cafes",
+  "Cafes.ourCafesTitle": "All cafes",
   "Cafes.partnerCafesTitle": "Other places where you can drink our coffee",
   "CoffeeStoreListing.noPriceValue": "No price filled",
   "CoffeeStoreListing.noNameValue": "No name filled",
@@ -45,7 +45,7 @@
   "Footer.followUsOnFacebook": "Follow us on Facebook",
   "Footer.followUsOnTwitter": "Follow us on Twitter",
   "Footer.contact": "Contact",
-  "Footer.cityStateZip": "Illinois 60601, USA",
+  "Footer.cityStateZip": "Sydney, Australia",
   "Footer.allRightsReserved": "All rights reserved.",
   "NotFound.message": "Sorry, we could not find what you are looking for.",
   "Route.about": "about-us"

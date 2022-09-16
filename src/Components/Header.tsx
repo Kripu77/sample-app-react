@@ -100,7 +100,7 @@ const Header: React.FC<HeaderProps> = (props) => {
           <div className="col-xs-8 col-md-8 col-lg-4 logo">
             <h1 className="logo">
               <Link to={`/${language}`} className="logo-link">
-                Dancing Goat
+           The Art of Coffee!!
               </Link>
             </h1>
           </div>
